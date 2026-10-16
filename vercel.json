@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/green-api/:path*",
+      "destination": "/api/green-api?path=:path*"
+    }
+  ]
+}
